@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Update What LLMs Think About Your Brand</title>
+<meta name="description" content="AI answers sometimes cite stale or negative info about your brand. You can't retrain the model — but you can influence what it retrieves. Here's what actually works.">
+<link rel="canonical" href="https://tools.ventlane.com/update-llm-brand-perception/">
+<meta property="og:title" content="How to Update What LLMs Think About Your Brand">
+<meta property="og:description" content="Stale reviews and outdated facts showing up in AI answers? You can't retrain the model, but you can change what it retrieves.">
+<meta property="og:type" content="article">
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;color:#1a1a1a;max-width:760px;margin:0 auto;padding:24px 20px}
+  h1{font-size:2rem;line-height:1.3} h2{font-size:1.5rem;margin-top:2.5em;border-bottom:2px solid #eee;padding-bottom:.3em}
+  h3{font-size:1.2rem;margin-top:1.8em}
+  table{width:100%;border-collapse:collapse;margin:1.5em 0;font-size:.92rem;display:block;overflow-x:auto}
+  th,td{border:1px solid #ddd;padding:10px 12px;text-align:left;white-space:nowrap}
+  th{background:#f6f6f6} td:first-child{font-weight:600}
+  .disclosure{background:#fffbe6;border:1px solid #e6d96a;padding:12px 16px;border-radius:6px;font-size:.9rem;margin:1.5em 0}
+  .verdict{background:#f4f8ff;border-left:4px solid #3b82f6;padding:10px 16px;margin:1em 0;font-size:.95rem}
+  .tip{background:#f0fdf4;border-left:4px solid #22c55e;padding:10px 16px;margin:1em 0;font-size:.95rem}
+  blockquote{border-left:3px solid #ddd;margin:1.2em 0;padding:.4em 1em;color:#444;font-style:italic}
+  .checklist li{margin:.6em 0} footer{margin-top:3em;font-size:.85rem;color:#666;border-top:1px solid #eee;padding-top:1em}
+  .updated{color:#666;font-size:.9rem}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question","name": "Can I get an LLM to forget outdated information about my brand?",
+     "acceptedAnswer": {"@type": "Answer","text": "You cannot retrain or directly edit a model's knowledge. What you can do is change what the model retrieves: publish fresh authoritative content, complete your official profiles, and earn new coverage. When the retrievable web changes, AI answers built on retrieval change with it — though there is no guaranteed timeline."}},
+    {"@type": "Question","name": "Why does ChatGPT cite a years-old negative review about my company?",
+     "acceptedAnswer": {"@type": "Answer","text": "AI answers draw on training data up to a cutoff plus whatever they retrieve from the live web. If the most prominent, most-linked page about your brand is an old negative review, that is what gets surfaced. The fix is to make newer, more authoritative sources easier to find and cite than the old ones."}},
+    {"@type": "Question","name": "Should I try to get a negative Reddit thread removed?",
+     "acceptedAnswer": {"@type": "Answer","text": "Removal is rarely the right first move and often backfires by drawing more attention. A better playbook is to respond helpfully inside the thread where appropriate, publish a factual response on your own domain, and earn fresh positive coverage so the thread is no longer the freshest or most authoritative source."}},
+    {"@type": "Question","name": "Do I need a Wikipedia page to fix my brand's AI answers?",
+     "acceptedAnswer": {"@type": "Answer","text": "No — and most companies do not qualify for one. Wikipedia has strict notability requirements, and creating or editing your own page there can violate its policies. Complete your Crunchbase, LinkedIn, and industry-directory profiles instead; these are legitimate sources AI systems can retrieve."}},
+    {"@type": "Question","name": "How long does it take for AI answers about my brand to change?",
+     "acceptedAnswer": {"@type": "Answer","text": "There is no guaranteed timeline, and anyone promising one is guessing. It depends on crawl frequency, how the model refreshes its retrieval index, and whether your new content actually outranks the old sources. Track weekly with a fixed prompt panel and judge by multi-week trends, not single answers."}}
+  ]
+}
+</script>
+</head>
+<body>
+
+<article>
+<p class="updated">Last updated: October 2026</p>
+<h1>How to Update What LLMs Think About Your Brand</h1>
+
+<p>You cannot retrain an LLM — but you can change what it says about your brand. Publish fresh, authoritative content that outranks the old, complete your official profiles, and earn new coverage. Models retrieve from the live web, so when the web changes, the answers follow.</p>
+
+<p>This guide is for founders and marketers who have asked an AI assistant about their own company and winced at the answer: a three-year-old one-star review, a discontinued product listed as current, a competitor recommended instead of you. Here is what is actually going on, what you can influence, and what is outside your control.</p>
+
+<h2>The "Time Capsule" Problem</h2>
+
+<p>Ask ChatGPT, Perplexity, or Gemini about a small or mid-size brand and you will often get an answer that feels frozen in time. A scathing review from 2022 presented as the consensus. A pricing page from two pivots ago. A feature you killed last year described as your flagship.</p>
+
+<p>The frustration is real, and community sentiment reflects it. The typical complaint goes something like this:</p>
+
+<blockquote>Community sentiment: "The AI keeps quoting a review from years ago — we've fixed everything it complains about."</blockquote>
+
+<p>Why does this happen? Two mechanisms, both worth understanding:</p>
+
+<ul>
+<li><strong>Training data has a cutoff.</strong> The model's built-in knowledge reflects the web as it was at some point in the past. If your brand's most prominent coverage predates the cutoff, that is what the model "remembers."</li>
+<li><strong>Retrieval favors prominence, not freshness.</strong> When the model searches the live web, it surfaces what is most linked-to, most cited, and easiest to find — not what is newest. An old negative review with hundreds of backlinks will beat your quiet, unlinked changelog every time.</li>
+</ul>
+
+<p>The uncomfortable truth: the AI is not wrong about what the web says. It is accurately reporting a web where your best, newest material is buried. The fix is not to argue with the model. It is to change the web it reads.</p>
+
+<h2>Why LLMs Don't Just "Update"</h2>
+
+<p>Let us be precise about what you cannot do, because vendors selling "AI reputation repair" sometimes imply otherwise:</p>
+
+<ul>
+<li><strong>You cannot retrain the model.</strong> No brand-side action edits the weights of ChatGPT, Gemini, or any other major model. Anyone selling you direct model editing is selling fiction.</li>
+<li><strong>You cannot submit a correction the way you would to a directory.</strong> There is no "update my brand's AI profile" form at any major AI provider.</li>
+<li><strong>You cannot reliably predict when answers will change.</strong> Refresh cycles, re-crawl frequency, and retrieval-index updates are not published in a form you can plan around. Treat any promised timeline as a guess.</li>
+</ul>
+
+<div class="verdict"><strong>The honest mental model:</strong> think of AI answers as a mirror of the retrievable web, not a database you can edit. Your leverage is entirely on the web side — what exists, what ranks, what gets cited.</div>
+
+<p>What you <em>can</em> influence, concretely:</p>
+
+<ul>
+<li>Which pages exist about your brand and how authoritative they look to a retrieval system (clear facts, structured data, real citations).</li>
+<li>Whether fresh, accurate sources outrank stale ones for the queries people actually ask.</li>
+<li>Whether your official profiles are complete enough to be the easiest correct answer.</li>
+</ul>
+
+<p>Everything in the next two sections follows from this: stop trying to change the model, and start changing what it finds.</p>
+
+<h2>What You Can Actually Influence</h2>
+
+<h3>1. Publish new authoritative content that outdates the old</h3>
+
+<p>The single highest-leverage move is to create pages that deserve to outrank the stale ones. Retrieval systems favor content that is comprehensive, clearly structured, and corroborated elsewhere. Practical targets:</p>
+
+<ul>
+<li><strong>An official "about / company" page</strong> with current facts: what you do now, current pricing model, current leadership. Mark it up with Organization structured data so machines parse it cleanly.</li>
+<li><strong>A public changelog or "what's new" page</strong> that documents what changed since the era the old reviews describe. When the AI cites a 2022 complaint about a missing feature, a changelog showing that feature shipped in 2024 is the direct rebuttal — in a form the model can quote.</li>
+<li><strong>Press and earned coverage.</strong> Third-party sources carry more weight than your own site. A product review, a funding announcement, a podcast transcript — anything from an independent publisher dated recently.</li>
+</ul>
+
+<div class="tip"><strong>Tip:</strong> date your content visibly. Retrieval systems and the models citing them both use recency signals; an undated page cannot prove it is newer than the 2022 review it is meant to replace.</div>
+
+<h3>2. Complete your official information sources</h3>
+
+<p>AI answers lean heavily on structured profile sources because they are easy to parse and hard to misread. Audit yours:</p>
+
+<ul>
+<li><strong>Crunchbase</strong> — funding, headcount, categories, description. Stale Crunchbase data shows up in AI answers constantly.</li>
+<li><strong>LinkedIn company page</strong> — complete description, current headcount range, logo.</li>
+<li><strong>Industry directories and review profiles</strong> — G2, Capterra, Trustpilot, or whatever your category uses. Claim them, complete them, keep facts current.</li>
+<li><strong>Wikipedia</strong> — only if you genuinely qualify. Wikipedia's notability requirements are strict, and writing or commissioning your own article can violate its conflict-of-interest policies. Do not treat this as a lever you can pull on demand; treat it as a nice-to-have if the coverage already exists.</li>
+</ul>
+
+<h3>3. Review management — the legitimate kind</h3>
+
+<p>Old negative reviews dominate AI answers partly because nothing newer exists to dilute them. The legitimate playbook:</p>
+
+<ul>
+<li><strong>Respond to old negative reviews</strong> where the platform allows it. A calm, factual owner response from this year, attached to a 2022 complaint, changes what a reader — and a citing model — takes away.</li>
+<li><strong>Earn new reviews through normal business.</strong> Ask satisfied customers, in the ordinary course of business, to share honest feedback. Volume of recent reviews is itself a freshness signal.</li>
+<li><strong>Do not manipulate reviews.</strong> Fake reviews, review gating (suppressing negative ones), and paid positive reviews violate the policies of every major platform and can trigger penalties far worse than a stale AI answer. This is a hard line.</li>
+</ul>
+
+<h2>The Negative-Reddit-Thread Playbook</h2>
+
+<p>A special case deserves its own section, because it is the most common version of this problem: a single negative Reddit thread — "Is [your product] a scam?", "Why I cancelled [your service]" — that ranks on Google and gets quoted by AI answers about your brand.</p>
+
+<p>Here is the playbook, in order:</p>
+
+<ol>
+<li><strong>Read the thread before doing anything.</strong> Is the complaint legitimate? Is it outdated? Is it one angry user or a pattern? Your response depends entirely on the answer. Do not respond while angry.</li>
+<li><strong>Respond helpfully inside the thread, if appropriate.</strong> A genuine, non-defensive reply from the company — acknowledging the issue, stating what changed — can flip the thread's value. Redditors respect honest engagement and punish corporate spin; write like a person, not a press release. If the thread is old and dead, posting in it may revive it in rankings — weigh that before commenting.</li>
+<li><strong>Publish a factual response on your own domain.</strong> Not a rebuttal screed — a clear page addressing the specific claims: what happened, what changed, what is true now. This gives retrieval systems an authoritative, current source to cite alongside (or instead of) the thread.</li>
+<li><strong>Earn fresh positive coverage.</strong> The thread dominates because it is the freshest substantial thing written about you. Fix the supply side: ship something worth covering, help a journalist, publish genuinely useful content in your space.</li>
+<li><strong>Do not attempt removal as a first resort.</strong> Asking moderators to remove legitimate criticism usually fails, and Streisand-effect blowback is real — a removal fight can generate far more negative coverage than the original thread. Reserve removal requests for clear policy violations (doxxing, spam), not criticism.</li>
+</ol>
+
+<div class="verdict"><strong>What not to do:</strong> no review manipulation, no fake positive threads, no brigading, no SEO "reputation attacks" on the thread. Every one of these risks platform penalties and, if discovered, becomes a worse story than the original complaint.</div>
+
+<h2>How Long Does It Take?</h2>
+
+<p>The honest answer: <strong>no guaranteed timeline exists, and the exact duration is unverifiable from the outside.</strong> It depends on how often the relevant pages are re-crawled, how the model's retrieval index refreshes, and whether your new content genuinely outranks the old sources for the queries in question.</p>
+
+<p>Anyone selling you "AI answers fixed in 2–4 weeks" is inventing a number. Do not plan around one.</p>
+
+<p>What you <em>can</em> do is measure properly so you know whether you are making progress:</p>
+
+<ul>
+<li><strong>Build a fixed prompt panel</strong> — 10–20 prompts covering how people actually ask about your brand ("is [brand] good?", "[brand] vs [competitor]", "[brand] reviews").</li>
+<li><strong>Run it weekly, same prompts, same phrasing.</strong> Record what each surface (ChatGPT, Perplexity, Gemini, AI Overviews) says: cited, mentioned, recommended, or absent.</li>
+<li><strong>Judge by 4-week rolling trends, not single answers.</strong> AI answers vary run to run; a single good answer proves nothing, and neither does a single bad one. Only multi-week patterns count as signal.</li>
+</ul>
+
+<p>If after two to three months of consistent publishing the trend has not moved, the problem is usually one of these: the new content is not actually outranking the old (check Google rankings for the same queries — AI retrieval and Google rankings correlate heavily), the old sources gained fresh engagement, or the queries you care about are dominated by sources you have not addressed.</p>
+
+<div class="disclosure"><strong>Disclosure:</strong> This page may contain affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We mention reputation-monitoring tools only in general terms — we have not independently tested specific vendors' AI-answer tracking claims, and you should verify any tool's methodology with a trial before paying. See our <a href="/verify-ai-visibility-tracker/">verification checklist</a> for how to evaluate such tools.</div>
+
+<h2>Your First 48 Hours: Priority Order</h2>
+
+<p>If you are starting today, do things in this order — highest leverage first:</p>
+
+<ol class="checklist">
+<li><strong>Run the prompt panel once, right now.</strong> Ten prompts across the four major surfaces. Screenshot everything. This is your "before" photo; without it you will never know if anything you do later worked.</li>
+<li><strong>Audit your structured profiles.</strong> Crunchbase, LinkedIn company page, and your category's review directories. Fix anything factually wrong — these are the cheapest wins because AI systems parse them easily.</li>
+<li><strong>Identify the single worst source.</strong> Which one page, if replaced, would change the most answers? Usually it is one old review, one stale directory listing, or one Reddit thread. Name it explicitly; your whole plan revolves around outranking or neutralizing that page.</li>
+<li><strong>Publish or update the official facts page.</strong> Current description, current pricing model, current leadership, visible date, Organization structured data. This becomes the canonical source you point everything else at.</li>
+<li><strong>Set the weekly tracking cadence.</strong> Same prompts, same day, same surfaces. Put it in the calendar now, or it will not happen.</li>
+</ol>
+
+<p>Notice what is <em>not</em> on this list: contacting the AI provider, demanding removals, or buying a reputation tool on day one. Those are week-six moves at the earliest, if ever. The first 48 hours are about measurement and the highest-leverage publishing.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I get an LLM to forget outdated information about my brand?</h3>
+<p>You cannot retrain or directly edit a model's knowledge. What you can do is change what the model retrieves: publish fresh authoritative content, complete your official profiles, and earn new coverage. When the retrievable web changes, AI answers built on retrieval change with it — though there is no guaranteed timeline.</p>
+
+<h3>Why does ChatGPT cite a years-old negative review about my company?</h3>
+<p>AI answers draw on training data up to a cutoff plus whatever they retrieve from the live web. If the most prominent, most-linked page about your brand is an old negative review, that is what gets surfaced. The fix is to make newer, more authoritative sources easier to find and cite than the old ones.</p>
+
+<h3>Should I try to get a negative Reddit thread removed?</h3>
+<p>Removal is rarely the right first move and often backfires by drawing more attention. A better playbook is to respond helpfully inside the thread where appropriate, publish a factual response on your own domain, and earn fresh positive coverage so the thread is no longer the freshest or most authoritative source.</p>
+
+<h3>Do I need a Wikipedia page to fix my brand's AI answers?</h3>
+<p>No — and most companies do not qualify for one. Wikipedia has strict notability requirements, and creating or editing your own page there can violate its policies. Complete your Crunchbase, LinkedIn, and industry-directory profiles instead; these are legitimate sources AI systems can retrieve.</p>
+
+<h3>How long does it take for AI answers about my brand to change?</h3>
+<p>There is no guaranteed timeline, and anyone promising one is guessing. It depends on crawl frequency, how the model refreshes its retrieval index, and whether your new content actually outranks the old sources. Track weekly with a fixed prompt panel and judge by multi-week trends, not single answers.</p>
+
+<!-- INTERNAL LINK (publish after page is live): <a href="/ai-recommends-competitors/">ChatGPT Recommends Your Competitors Instead of You? Here's How to Fix It</a> -->
+
+</article>
+
+<footer>
+<p>This page contains affiliate links; we may earn a commission on qualifying purchases. Brand-monitoring tools are mentioned generically — verify any vendor's methodology with a trial before paying.</p>
+</footer>
+
+</body>
+</html>
